@@ -5,6 +5,8 @@
 
 > Assurance | Image Search is an application that allows users to search and browse images online from Pixabay API.
 
+### ✨ [Demo](https://image-search-assurance.vercel.app/)
+
 ## Install
 
 ```sh
