@@ -6,15 +6,13 @@ import qs from 'qs'
 import { PIXABAY_ENDPOINT, PIXABAY_KEY } from '../utils/endpoint'
 import { SearchResults } from './SearchResults'
 import { Image } from './SearchResults'
-import { Typography } from '@mui/material'
-import SaveIcon from '@mui/icons-material/Save'
 
 export const Search = () => {
   const [query, setQuery] = useState('')
   const [url, setUrl] = useState('')
   const [options, setOptions] = useState<RequestInit>({})
   const [imagesData, setImagesData] = useState<Image[]>([])
-  const [response, loading, error] = useFetch(url, options)
+  const [response] = useFetch(url, options)
 
   const handleSubmit = () => {
     const queryParams = qs.stringify({
