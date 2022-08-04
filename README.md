@@ -3,7 +3,7 @@
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
 [![Twitter: julbarg](https://img.shields.io/twitter/follow/julbarg.svg?style=social)](https://twitter.com/julbarg)
 
-> Assurance | Image Search is an application that allows users to search and browse images online using Pixabay API.
+> Assurance | Image Search is an application that allows users to search and browse images online from Pixabay API.
 
 ## Install
 
@@ -48,12 +48,10 @@ npm start
 ## Features - Architecture
 
 - **Include more features**: For now it just showing the first 30 images. It could be nice to include the following features:
-
   - Pagination
   - Order by
   - Sort by
   - Image Details component to check the info for each image
-
 - **Security Issues:** The key is visible for everyone. Add the sensitive data in secure place using env.local and env variables (Production).
 - **Pipeline:** Include a pipeline to run test, build, static code analysis and finally deploy. Implement different environment at least Staging and Production.
 
